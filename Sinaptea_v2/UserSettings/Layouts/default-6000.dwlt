@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 39
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 18
+  controlID: 40
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 19
+  controlID: 41
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -280,7 +280,7 @@ MonoBehaviour:
   - {fileID: 12}
   - {fileID: 19}
   m_Selected: 3
-  m_LastSelected: 0
+  m_LastSelected: 3
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -455,7 +455,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: feb00000
     m_LastClickedID: 45310
-    m_ExpandedIDs: 0000000092b0000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000094b0000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -484,7 +484,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000092b00000
+    m_ExpandedIDs: 0000000094b00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -630,9 +630,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 38ae0000
-      m_LastClickedID: 44600
-      m_ExpandedIDs: 08fbffff20ae000038ae0000
+      m_SelectedIDs: 82b70000
+      m_LastClickedID: 0
+      m_ExpandedIDs: e2bdffff9ebeffff32bfffffcebfffff64c0ffff96cdffff36d0ffff6eeaffffc4eaffff1eebffff7aebffff36ecffff8cecffff72edffff40f1ffffc8f7ffff08fbffff56b100006eb1000088b10000b0b10000b8b600007abc0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1222,9 +1222,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 128.5, y: 228.5, z: 0}
+    m_Target: {x: 134.50926, y: 247.05112, z: -2.4688795}
     speed: 2
-    m_Value: {x: 128.5, y: 228.5, z: 0}
+    m_Value: {x: 134.50926, y: 247.05112, z: -2.4688795}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1274,9 +1274,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 262.1536
+    m_Target: 314.52817
     speed: 2
-    m_Value: 262.1536
+    m_Value: 314.52817
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1385,7 +1385,7 @@ MonoBehaviour:
   m_SerializedViewNames:
   - UnityEditor.DeviceSimulation.SimulatorWindow
   m_SerializedViewValues:
-  - C:\Users\USER\Documents\GitHub\Sinaptea_v2\Sinaptea_v1\Sinaptea_v2\Library\PlayModeViewStates\703bd52958b8d7c46a17b232cf3df661
+  - C:\Users\USER\Documents\GitHub\Sinaptea_v2\Sinaptea_v1\Sinaptea_v2\Library\PlayModeViewStates\45529e63f81afbb4faa7ba092453e05c
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
