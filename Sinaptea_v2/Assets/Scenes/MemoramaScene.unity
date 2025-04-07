@@ -281,7 +281,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171129848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 379}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -291,7 +291,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 209.18213, y: -78.43756}
+  m_AnchoredPosition: {x: 76, y: 143}
   m_SizeDelta: {x: 418.36, y: 156.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &171129850
@@ -470,16 +470,16 @@ MonoBehaviour:
   _gameOverButton: {fileID: 497390394}
   _levels:
   - Columns: 4
-    Rows: 3
-    Difficulty: 3
+    Rows: 4
+    Difficulty: 6
     Movements: 10
-  - Columns: 4
-    Rows: 4
-    Difficulty: 4
-    Movements: 15
   - Columns: 5
-    Rows: 4
-    Difficulty: 5
+    Rows: 6
+    Difficulty: 7
+    Movements: 15
+  - Columns: 6
+    Rows: 7
+    Difficulty: 10
     Movements: 18
 --- !u!4 &330107604
 Transform:
@@ -659,7 +659,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497390394}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalPosition: {x: 0, y: 0, z: 497}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
