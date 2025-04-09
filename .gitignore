@@ -12,6 +12,8 @@
 /[Uu]ser[Ss]ettings/
 
 /Sinaptea_v2/Library/
+/Sinaptea_v2/Logs/
+/Sinaptea_v2/UserSettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
