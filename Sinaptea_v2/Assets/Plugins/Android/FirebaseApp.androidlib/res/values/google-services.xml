@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="gcm_defaultSenderId" translatable="false">738915506683</string>
+  <string name="google_storage_bucket" translatable="false">sinaptea-firebase.firebasestorage.app</string>
+  <string name="project_id" translatable="false">sinaptea-firebase</string>
+  <string name="google_api_key" translatable="false">AIzaSyA06o8AlaW_Rv2B5YRfTGoX9yPKgMGcCnE</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA06o8AlaW_Rv2B5YRfTGoX9yPKgMGcCnE</string>
+  <string name="google_app_id" translatable="false">1:738915506683:android:12c694852b0c0a880a135e</string>
+</resources>

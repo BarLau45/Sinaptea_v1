@@ -14,6 +14,8 @@
 /Sinaptea_v2/Library/
 /Sinaptea_v2/Logs/
 /Sinaptea_v2/UserSettings/
+/Sinaptea_v2/Builds/
+/Sinaptea_v2/Assets/Firebase/Plugins/x86_64
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
