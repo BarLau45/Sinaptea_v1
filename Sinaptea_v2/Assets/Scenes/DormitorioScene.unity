@@ -350,10 +350,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1434220662}
   - {fileID: 1702673517}
   - {fileID: 939143136}
   - {fileID: 1557589507}
-  - {fileID: 1434220662}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -578,8 +578,9 @@ GameObject:
   - component: {fileID: 939143139}
   - component: {fileID: 939143138}
   - component: {fileID: 939143137}
+  - component: {fileID: 939143140}
   m_Layer: 5
-  m_Name: BotonActividades
+  m_Name: BotonDormir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -687,6 +688,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939143135}
   m_CullTransparentMesh: 1
+--- !u!114 &939143140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939143135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4058726d2be33324898f288e684cfa5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sleepButton: {fileID: 939143137}
+  recoveryRate: 5
 --- !u!1 &998277868
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,11 +826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeScale: 1
-  energy: 100
   energyWasteRate: 2
-  satiety: 100
-  joy: 100
-  energyBar: {fileID: 595850451}
 --- !u!1001 &1434220661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1416,6 +1427,7 @@ GameObject:
   - component: {fileID: 1702673517}
   - component: {fileID: 1702673519}
   - component: {fileID: 1702673518}
+  - component: {fileID: 1702673520}
   m_Layer: 5
   m_Name: Bateria
   m_TagString: Untagged
@@ -1481,6 +1493,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702673516}
   m_CullTransparentMesh: 1
+--- !u!114 &1702673520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702673516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf4cd4456518cf4e9cfff96465f467c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energyBar: {fileID: 595850451}
+  timeScale: 1
+  energyWasteRate: 2
 --- !u!1 &1809725795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1748,6 +1775,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1962210517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1962210519}
+  - component: {fileID: 1962210518}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1962210518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962210517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364ba2aa1462942428670da51f4449ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1962210519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962210517}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.612226, y: 3.4240136, z: -0.03576581}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2025073027
 GameObject:
   m_ObjectHideFlags: 0
@@ -1760,7 +1831,7 @@ GameObject:
   - component: {fileID: 2025073030}
   - component: {fileID: 2025073029}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: DormirTexto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1895,3 +1966,4 @@ SceneRoots:
   - {fileID: 998277871}
   - {fileID: 1695332983}
   - {fileID: 1844427957}
+  - {fileID: 1962210519}

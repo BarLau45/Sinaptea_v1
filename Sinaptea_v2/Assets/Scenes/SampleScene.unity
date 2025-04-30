@@ -734,11 +734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeScale: 1
-  energy: 100
   energyWasteRate: 2
-  satiety: 100
-  joy: 100
-  energyBar: {fileID: 1797974875}
 --- !u!1 &1548330555
 GameObject:
   m_ObjectHideFlags: 0
@@ -1061,6 +1057,7 @@ GameObject:
   - component: {fileID: 1702673517}
   - component: {fileID: 1702673519}
   - component: {fileID: 1702673518}
+  - component: {fileID: 1702673520}
   m_Layer: 5
   m_Name: Bateria
   m_TagString: Untagged
@@ -1126,6 +1123,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702673516}
   m_CullTransparentMesh: 1
+--- !u!114 &1702673520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702673516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf4cd4456518cf4e9cfff96465f467c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energyBar: {fileID: 1797974875}
+  timeScale: 1
+  energyWasteRate: 2
 --- !u!1001 &1774239063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1466,6 +1478,50 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1921113657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1921113659}
+  - component: {fileID: 1921113658}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1921113658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921113657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364ba2aa1462942428670da51f4449ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1921113659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921113657}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.612226, y: 3.4240136, z: -0.03576581}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1929517001 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2719919636302184092, guid: 3b2a34b7cdc8d8b4c8618e667aa9a39e, type: 3}
@@ -1748,6 +1804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraEnergia
       objectReference: {fileID: 0}
+    - target: {fileID: 354853027366386621, guid: f97ae25cb4432b244a804161fa2a6036, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5691394304161866879, guid: f97ae25cb4432b244a804161fa2a6036, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1847,8 +1907,9 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 998277871}
   - {fileID: 558283000}
   - {fileID: 1809725798}
   - {fileID: 1695332983}
+  - {fileID: 998277871}
   - {fileID: 742827502}
+  - {fileID: 1921113659}
