@@ -1,64 +1,40 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Avatar : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public static Avatar Instance;
-
     public float timeScale = 1;
-    public int energy = 100;
     public int energyWasteRate = 2;
-    public int satiety = 100;
-    public int joy = 100;
-    int timeWasted;
-
-    public Slider energyBar;
-
-
-    void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(energyBar);
-        }
-        else
-        {
-            Destroy(this);
-        }
-    }
-
+    
+    private int energyTime = 0;
+    private int timeWasted = 0;
+    
     void Start()
     {
+        if (DataManager.Instance == null)
+        {
+            Debug.LogError("DataManager no encontrado. Asegúrate de que existe en la escena.");
+            return;
+        }
         
         InvokeRepeating("UpdateMeters", 0, timeScale);
-        energyBar = GameObject.Find("Canvas/Bateria/BarraEnergia").GetComponent<Slider>();
     }
-
-    void SetUp()
-    {
-        energyBar.value = energy;
-    }
-
-    // Update is called once per frame
-    int energyTime;
-
+    
     void UpdateMeters()
     {
+        if (DataManager.Instance == null) return;
+        
         if (energyTime > energyWasteRate)
         {
             energyTime = 0;
-            energy--;
-            energyBar.value = energy;
+            
+            int currentEnergy = DataManager.Instance.GetEnergy();
+            currentEnergy = Mathf.Max(0, currentEnergy - 1);
+            DataManager.Instance.SetEnergy(currentEnergy);
             
         }
         energyTime++;
         timeWasted++;
     }
-    void Update()
-    {
-        // PRUEBA DE PUSH AL REPOSITORIO
-        
-    }
+    
+    
 }

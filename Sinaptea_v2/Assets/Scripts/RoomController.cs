@@ -12,7 +12,6 @@ public class RoomController : MonoBehaviour
     public Button armario;
     public Button tienda;
     public Button comedor;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         room = GameObject.Find("Canvas/BotonHabitacion").GetComponent<Button>();
