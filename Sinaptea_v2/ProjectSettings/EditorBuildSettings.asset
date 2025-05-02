@@ -26,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ActividadesScene.unity
     guid: 9875e4657c47fdd41aac9ac27a06a476
+  - enabled: 1
+    path: Assets/Scenes/PalabrasScene.unity
+    guid: 686741db85ce1bd408313279233be7ff
+  - enabled: 1
+    path: Assets/Scenes/TaskCompletedScene.unity
+    guid: 9a10ff5180d17b0429c6f619dc11c244
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
