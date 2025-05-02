@@ -27,14 +27,15 @@ EditorBuildSettings:
     path: Assets/Scenes/DormitorioScene.unity
     guid: 2561fd7d4f396724ba45fcfb25141aa9
   - enabled: 1
-    path: Assets/Scenes/PerfilScene.unity
-    guid: b7243d7213d4c1541a374bd4c5d6a430
+    path: Assets/Scenes/ActividadesScene.unity
+    guid: 9875e4657c47fdd41aac9ac27a06a476
   - enabled: 1
-    path: Assets/Scenes/PoliticaScene.unity
-    guid: 23889eca8a88194438fa145149bb5ce1
+    path: Assets/Scenes/PalabrasScene.unity
+    guid: 686741db85ce1bd408313279233be7ff
   - enabled: 1
-    path: Assets/Scenes/MemoramaScene.unity
-    guid: f699262cc0f2442409dcda9a4fcc03ff
+    path: Assets/Scenes/TaskCompletedScene.unity
+    guid: 9a10ff5180d17b0429c6f619dc11c244
+
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
