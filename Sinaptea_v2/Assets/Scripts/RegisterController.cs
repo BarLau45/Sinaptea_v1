@@ -30,7 +30,7 @@ public class RegisterController : MonoBehaviour
         }
     }
 
-    void RegisterUser()
+    public void RegisterUser()
     {
         if (string.IsNullOrEmpty(userName.text) || string.IsNullOrEmpty(email.text) || string.IsNullOrEmpty(password.text)) 
         {
@@ -113,7 +113,7 @@ public class RegisterController : MonoBehaviour
         SceneManager.LoadScene("LoginScene");
     }
 
-    void DeployError(string text)
+    public void DeployError(string text)
     {
         authBlackout.SetActive(!authBlackout.activeSelf);
         authBlackout = GameObject.Find("Canvas/Tarjeta/BotonRegistrar/BlackoutAuth");
@@ -124,7 +124,7 @@ public class RegisterController : MonoBehaviour
 
     }
 
-    void DeactivateError()
+    public void DeactivateError()
     {
         authBlackout.SetActive(false);
     }

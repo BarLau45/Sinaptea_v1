@@ -63,13 +63,13 @@ public class FirebaseInit : MonoBehaviour
                             
                             if (isLoggedIn)
                             {
-                                Debug.Log("Usuario con sesión iniciada, cargando MainScene");
-                                SceneManager.LoadScene("MainScene");
+                                Debug.Log("Usuario con sesión iniciada, cargando SampleScene");
+                                SceneManager.LoadScene("SampleScene");
                             }
                             else
                             {
                                 Debug.Log("Usuario sin sesión, cargando LoginScene");
-                                SceneManager.LoadScene("LoginScene");
+                                //SceneManager.LoadScene("SplashScene");
                             }
                         }
                         catch (Exception e)
