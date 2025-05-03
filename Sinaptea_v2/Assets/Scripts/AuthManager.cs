@@ -4,7 +4,6 @@ using System;
 
 public class AuthManager : MonoBehaviour
 {
-    // Instancia singleton
     private static AuthManager _instance;
     public static AuthManager Instance
     {
@@ -12,10 +11,8 @@ public class AuthManager : MonoBehaviour
         {
             if (_instance == null)
             {
-                // Buscar una instancia existente
                 _instance = FindFirstObjectByType<AuthManager>();
                 
-                // Si no existe, crear una nueva
                 if (_instance == null)
                 {
                     try 
@@ -36,7 +33,6 @@ public class AuthManager : MonoBehaviour
         }
     }
 
-    // Firebase Auth
     private FirebaseAuth auth;
     private bool isInitialized = false;
     
@@ -45,7 +41,6 @@ public class AuthManager : MonoBehaviour
 
     void Awake()
     {
-        // Singleton pattern
         if (_instance != null && _instance != this)
         {
             Destroy(gameObject);
@@ -57,7 +52,6 @@ public class AuthManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         Debug.Log("AuthManager Awake - Implementando singleton");
         
-        // Inicializar Firebase Auth
         InitializeFirebase();
     }
 
@@ -67,7 +61,6 @@ public class AuthManager : MonoBehaviour
         {
             Debug.Log("Inicializando Firebase Auth...");
             
-            // Verificar si FirebaseAuth está disponible
             if (FirebaseAuth.DefaultInstance == null)
             {
                 Debug.LogError("Firebase Auth no está inicializado. Asegúrate de que Firebase esté correctamente configurado.");
@@ -119,7 +112,6 @@ public class AuthManager : MonoBehaviour
         }
     }
 
-    // Obtener el usuario actual
     public FirebaseUser GetCurrentUser()
     {
         try
@@ -139,7 +131,6 @@ public class AuthManager : MonoBehaviour
         }
     }
 
-    // Verificar si hay un usuario autenticado
     public bool IsUserLoggedIn()
     {
         try
@@ -161,7 +152,6 @@ public class AuthManager : MonoBehaviour
         }
     }
 
-    // Cerrar sesión
     public void SignOut()
     {
         try
