@@ -59,7 +59,7 @@ public class LogoutTest
     [Test]
     public void DeployLogout_ShowsLogoutConfirmation()
     {
-        // Usar reflection para acceder al método DeployLogout
+        
         System.Reflection.MethodInfo deployLogoutMethod = typeof(ProfileController).GetMethod("DeployLogout", 
                                                          System.Reflection.BindingFlags.NonPublic | 
                                                          System.Reflection.BindingFlags.Instance);
@@ -74,8 +74,7 @@ public class LogoutTest
     [Test]
     public void LogoutUser_NavigatesToSplashScene()
     {
-        // Evitamos llamar a Start() que está causando el NullReferenceException
-        // Primero desplegamos el panel de logout para configurar los listeners de los botones
+        
         System.Reflection.MethodInfo deployLogoutMethod = typeof(ProfileController).GetMethod("DeployLogout", 
                                                          System.Reflection.BindingFlags.NonPublic | 
                                                          System.Reflection.BindingFlags.Instance);

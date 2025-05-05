@@ -92,7 +92,7 @@ public class RegisterTest
     [Test]
     public void IsValidEmail_ValidEmail_ReturnsTrue()
     {
-        // Usar reflection para acceder al método privado IsValidEmail
+        
         System.Reflection.MethodInfo isValidEmailMethod = typeof(RegisterController).GetMethod("IsValidEmail", 
                                                          System.Reflection.BindingFlags.NonPublic | 
                                                          System.Reflection.BindingFlags.Instance);
@@ -123,30 +123,21 @@ public class RegisterTest
     [UnityTest]
     public IEnumerator MoveToLogin_LoadsLoginScene()
     {
-        // Mockear SceneManager.LoadScene
-        // Nota: En una implementación real, podrías usar una librería como NSubstitute o utilizar
-        // una interfaz para abstracción que facilite las pruebas
-        
-        // Esta prueba es conceptual, ya que cargar escenas en tests requiere configuración adicional
-        
+       
         // Simular clic en botón de volver a login
         returnToLoginButton.onClick.Invoke();
         
         // Esperar un frame
         yield return null;
         
-        // En una implementación real, verificaríamos que se llamó a SceneManager.LoadScene
-        // con el parámetro correcto
+        
         Assert.Pass("Esta prueba requiere integración con el sistema de escenas de Unity");
     }
     
     [UnityTest]
     public IEnumerator RegisterUser_ValidData_TriggersFirebaseRegistration()
     {
-        // Esta prueba requeriría mockear Firebase, lo cual está fuera del alcance de este ejemplo básico
-        // En un entorno real, usaríamos una interfaz para abstraer Firebase y mockear su comportamiento
-        
-        // Configurar datos válidos
+      
         userNameInput.text = "TestUser";
         emailInput.text = "test@example.com";
         passwordInput.text = "Password123!";
@@ -157,8 +148,6 @@ public class RegisterTest
         // Esperar frames para que se complete la corrutina
         yield return new WaitForSeconds(0.1f);
         
-        // En una implementación real, verificaríamos que se llamó a los métodos de Firebase
-        // y que se manejaron correctamente las respuestas
         Assert.Pass("Esta prueba requiere integración con Firebase o mocks adecuados");
     }
 }
