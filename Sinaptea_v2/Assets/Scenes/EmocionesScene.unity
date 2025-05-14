@@ -1652,8 +1652,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0dbf4dc0bee8954880000c9bcd7147f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeScale: 1
-  energyWasteRate: 2
+  timeScale: 20
+  energyWasteRate: 1
 --- !u!1 &1016051553
 GameObject:
   m_ObjectHideFlags: 0
@@ -2599,8 +2599,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   energyBar: {fileID: 583304939}
-  timeScale: 1
-  energyWasteRate: 2
+  timeScale: 20
+  energyWasteRate: 1
 --- !u!1 &1809725795
 GameObject:
   m_ObjectHideFlags: 0
