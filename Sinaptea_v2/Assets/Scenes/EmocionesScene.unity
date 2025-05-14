@@ -1652,8 +1652,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0dbf4dc0bee8954880000c9bcd7147f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeScale: 1
-  energyWasteRate: 2
+  timeScale: 20
+  energyWasteRate: 1
 --- !u!1 &1016051553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,6 +1790,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016051553}
   m_CullTransparentMesh: 1
+--- !u!114 &1054875514 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4541131200196983751, guid: 4e0672ae72a23fe439297e64c03467af, type: 3}
+  m_PrefabInstance: {fileID: 968637474}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1054875515 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779694317075983268, guid: 4e0672ae72a23fe439297e64c03467af, type: 3}
+  m_PrefabInstance: {fileID: 968637474}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1054875516 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4358256029174729754, guid: 4e0672ae72a23fe439297e64c03467af, type: 3}
+  m_PrefabInstance: {fileID: 968637474}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1395940464
 GameObject:
   m_ObjectHideFlags: 0
@@ -2202,9 +2235,9 @@ MonoBehaviour:
   sala: {fileID: 968637478}
   emociones: {fileID: 968637477}
   dormitorio: {fileID: 968637476}
-  armario: {fileID: 0}
-  tienda: {fileID: 0}
-  comedor: {fileID: 0}
+  armario: {fileID: 1054875516}
+  tienda: {fileID: 1054875515}
+  comedor: {fileID: 1054875514}
 --- !u!1 &1611980463
 GameObject:
   m_ObjectHideFlags: 0
@@ -2599,8 +2632,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   energyBar: {fileID: 583304939}
-  timeScale: 1
-  energyWasteRate: 2
+  timeScale: 20
+  energyWasteRate: 1
 --- !u!1 &1809725795
 GameObject:
   m_ObjectHideFlags: 0

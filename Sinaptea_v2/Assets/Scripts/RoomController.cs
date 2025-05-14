@@ -28,6 +28,8 @@ public class RoomController : MonoBehaviour
         emociones.onClick.AddListener(() => Navigate("EmocionesScene"));
         dormitorio = GameObject.Find("Canvas/BotonHabitacion/Blackout/ModalHabitaciones/BotonIrDormitorio").GetComponent<Button>();
         dormitorio.onClick.AddListener(() => Navigate("DormitorioScene"));
+        armario = GameObject.Find("Canvas/BotonHabitacion/Blackout/ModalHabitaciones/BotonIrArmario").GetComponent<Button>();
+        armario.onClick.AddListener(() => Navigate("ArmarioScene"));
         // To Do armario, tienda, comedor
     }
 

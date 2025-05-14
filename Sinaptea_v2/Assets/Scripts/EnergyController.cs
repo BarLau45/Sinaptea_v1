@@ -5,8 +5,8 @@ public class EnergyController : MonoBehaviour
 {
 
     public Slider energyBar;
-    public float timeScale = 1f;
-    public int energyWasteRate = 2;
+    public float timeScale = 20f;
+    public int energyWasteRate = 1;
     
     private int energyTime = 0;
     

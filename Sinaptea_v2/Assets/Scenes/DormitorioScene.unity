@@ -825,8 +825,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0dbf4dc0bee8954880000c9bcd7147f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeScale: 1
-  energyWasteRate: 2
+  timeScale: 20
+  energyWasteRate: 1
+--- !u!114 &1116710529 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4541131200196983751, guid: 4e0672ae72a23fe439297e64c03467af, type: 3}
+  m_PrefabInstance: {fileID: 1651000120}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1116710530 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779694317075983268, guid: 4e0672ae72a23fe439297e64c03467af, type: 3}
+  m_PrefabInstance: {fileID: 1651000120}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1434220661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1237,9 +1259,9 @@ MonoBehaviour:
   sala: {fileID: 1651000124}
   emociones: {fileID: 1651000123}
   dormitorio: {fileID: 1651000122}
-  armario: {fileID: 0}
-  tienda: {fileID: 0}
-  comedor: {fileID: 0}
+  armario: {fileID: 1651000122}
+  tienda: {fileID: 1116710530}
+  comedor: {fileID: 1116710529}
 --- !u!1001 &1651000120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1506,8 +1528,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   energyBar: {fileID: 595850451}
-  timeScale: 1
-  energyWasteRate: 2
+  timeScale: 20
+  energyWasteRate: 1
 --- !u!1 &1809725795
 GameObject:
   m_ObjectHideFlags: 0

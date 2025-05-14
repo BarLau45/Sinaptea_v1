@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Avatar : MonoBehaviour
 {
-    public float timeScale = 1;
-    public int energyWasteRate = 2;
+    public float timeScale = 20f;
+    public int energyWasteRate = 1;
     
     private int energyTime = 0;
     private int timeWasted = 0;
