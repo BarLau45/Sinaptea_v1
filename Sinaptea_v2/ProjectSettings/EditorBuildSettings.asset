@@ -47,5 +47,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ArmarioScene.unity
     guid: 4134e41826763f14aa50a778f26ff7ef
+  - enabled: 1
+    path: Assets/Scenes/TiendaScene.unity
+    guid: 168827b738b17714bb6de8f725d9df6d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

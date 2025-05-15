@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class DataManager : MonoBehaviour
@@ -7,6 +10,11 @@ public class DataManager : MonoBehaviour
     private const string ENERGY_KEY = "PlayerEnergy";
     private const string SATIETY_KEY = "PlayerSatiety";
     private const string JOY_KEY = "PlayerJoy";
+
+    private const string HAIR_KEY = "AvatarHair";
+    private const string SHIRT_KEY = "AvatarShirt";
+    private const string PANTS_KEY = "AvatarPants";
+    private const string SHOES_KEY = "AvatarShoes";
 
     private const int DEFAULT_ENERGY = 100;
     private const int DEFAULT_SATIETY = 100;
@@ -67,4 +75,49 @@ public class DataManager : MonoBehaviour
         PlayerPrefs.Save();
     }
 
+    // Métodos para las prendas personalizadas
+
+    public string GetHair()
+    {
+        return PlayerPrefs.GetString(HAIR_KEY, "");
+    }
+
+    public void SetHair(string name)
+    {
+        PlayerPrefs.SetString(HAIR_KEY, name);
+        PlayerPrefs.Save();
+    }
+
+    public string GetShirt()
+    {
+        return PlayerPrefs.GetString(SHIRT_KEY, "");
+    }
+
+    public void SetShirt(string name)
+    {
+        PlayerPrefs.SetString(SHIRT_KEY, name);
+        PlayerPrefs.Save();
+    }
+
+    public string GetPants()
+    {
+        return PlayerPrefs.GetString(PANTS_KEY, "");
+    }
+
+    public void SetPants(string name)
+    {
+        PlayerPrefs.SetString(PANTS_KEY, name);
+        PlayerPrefs.Save();
+    }
+
+    public string GetShoes()
+    {
+        return PlayerPrefs.GetString(SHOES_KEY, "");
+    }
+
+    public void SetShoes(string name)
+    {
+        PlayerPrefs.SetString(SHOES_KEY, name);
+        PlayerPrefs.Save();
+    }
 }

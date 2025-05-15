@@ -30,7 +30,9 @@ public class RoomController : MonoBehaviour
         dormitorio.onClick.AddListener(() => Navigate("DormitorioScene"));
         armario = GameObject.Find("Canvas/BotonHabitacion/Blackout/ModalHabitaciones/BotonIrArmario").GetComponent<Button>();
         armario.onClick.AddListener(() => Navigate("ArmarioScene"));
-        // To Do armario, tienda, comedor
+        tienda = GameObject.Find("Canvas/BotonHabitacion/Blackout/ModalHabitaciones/BotonIrTienda").GetComponent<Button>();
+        tienda.onClick.AddListener(() => Navigate("TiendaScene"));
+        // To Do comedor
     }
 
     void Navigate(string roomName)
