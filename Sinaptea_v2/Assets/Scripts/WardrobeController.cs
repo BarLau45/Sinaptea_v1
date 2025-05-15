@@ -8,7 +8,7 @@ public class WardrobeController : MonoBehaviour
     [Header("Prendas en ciclo")]
     public List<Sprite> options = new List<Sprite>();
 
-    private int currentOption = 0;
+    public int currentOption = 0;
 
     public void NextOption() {
         currentOption++;
@@ -25,14 +25,9 @@ public class WardrobeController : MonoBehaviour
         }
         wear.sprite = options[currentOption];
     }
-    void Start()
+    
+    public string submitWear() 
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        return wear.sprite.name;
     }
 }

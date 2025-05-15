@@ -119,6 +119,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &1084894 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779694317075983268, guid: 4e0672ae72a23fe439297e64c03467af, type: 3}
+  m_PrefabInstance: {fileID: 1651000120}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &42208752
 GameObject:
   m_ObjectHideFlags: 0
@@ -4220,9 +4231,9 @@ RectTransform:
   m_Children:
   - {fileID: 1434220662}
   - {fileID: 1702673517}
-  - {fileID: 1557589507}
   - {fileID: 1667448143}
   - {fileID: 1276869780}
+  - {fileID: 1557589507}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -9964,6 +9975,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412999158}
   m_CullTransparentMesh: 1
+--- !u!114 &1414212708 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4541131200196983751, guid: 4e0672ae72a23fe439297e64c03467af, type: 3}
+  m_PrefabInstance: {fileID: 1651000120}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1434220661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11043,9 +11065,9 @@ MonoBehaviour:
   sala: {fileID: 1651000124}
   emociones: {fileID: 1651000123}
   dormitorio: {fileID: 1651000122}
-  armario: {fileID: 0}
-  tienda: {fileID: 0}
-  comedor: {fileID: 0}
+  armario: {fileID: 1577051550}
+  tienda: {fileID: 1084894}
+  comedor: {fileID: 1414212708}
 --- !u!1 &1558685147
 GameObject:
   m_ObjectHideFlags: 0
@@ -11336,6 +11358,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565715414}
   m_CullTransparentMesh: 1
+--- !u!114 &1577051550 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4358256029174729754, guid: 4e0672ae72a23fe439297e64c03467af, type: 3}
+  m_PrefabInstance: {fileID: 1651000120}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1577167400
 GameObject:
   m_ObjectHideFlags: 0
