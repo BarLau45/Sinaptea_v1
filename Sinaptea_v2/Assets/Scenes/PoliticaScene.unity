@@ -668,7 +668,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Polit\xEDca de Privacidad"
+  m_text: "Pol\xEDtica de Privacidad"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -925,24 +925,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Lectus etiam parturient
-    aenean dolor hac donec a. Aenean ornare lobortis maecenas pretium tempus magna
-    eleifend ad. Lacus maecenas inceptos ullamcorper blandit porttitor. Netus senectus
-    mollis aliquam auctor turpis proin lacinia mi. Auctor felis scelerisque facilisi
-    himenaeos fringilla lacinia.
-
-    Nisl rutrum metus netus conubia nibh. Dignissim
-    elit venenatis tellus facilisis aptent feugiat mi curae. Nisl habitasse porttitor
-    vestibulum, accumsan urna pellentesque curabitur nisi ligula. Eu leo non sapien
-    et faucibus dignissim montes posuere consequat. Phasellus ex aenean maecenas
-    facilisi elementum, integer mi accumsan. Litora lorem eleifend eget; pellentesque
-    tincidunt eleifend nullam. Praesent orci penatibus montes fermentum phasellus
-    rutrum inceptos. Himenaeos tristique tempor finibus, rhoncus mauris eleifend.
-    Vitae himenaeos euismod purus, convallis maecenas praesent. Facilisi aenean mus
-    fringilla et; mattis a.
-
-    Imperdiet urna pulvinar tortor mi tincidunt natoque.
-    Nec laoreet praesent vulputate aenean lacus sollicitudin torquent commodo imperdiet.  '
+  m_text: "Esta Pol\xEDtica de Privacidad describe c\xF3mo SinapTEA recopila, utiliza
+    y protege la informaci\xF3n que los usuarios proporcionan al utilizar nuestra
+    aplicaci\xF3n m\xF3vil. Al utilizar la aplicaci\xF3n, usted acepta los t\xE9rminos
+    descritos en esta pol\xEDtica. Podemos recopilar informaci\xF3n como datos personales,
+    incluyendo nombre, correo electr\xF3nico. Utilizamos esta informaci\xF3n para
+    mejorar la experiencia del usuario, personalizar el contenido, proveer soporte
+    t\xE9cnico, analizar el rendimiento de la aplicaci\xF3n y cumplir con obligaciones
+    legales. No compartimos su informaci\xF3n personal con terceros, excepto con
+    proveedores de servicios que ayudan en el funcionamiento de la aplicaci\xF3n
+    o cuando sea necesario para cumplir con obligaciones legales o solicitudes de
+    autoridades competentes. Adoptamos medidas de seguridad administrativas, t\xE9cnicas
+    y f\xEDsicas para proteger su informaci\xF3n contra el acceso no autorizado,
+    la p\xE9rdida o el mal uso. Nos reservamos el derecho de modificar esta pol\xEDtica
+    de privacidad en cualquier momento, siendo efectivos los cambios una vez publicados
+    en la aplicaci\xF3n."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

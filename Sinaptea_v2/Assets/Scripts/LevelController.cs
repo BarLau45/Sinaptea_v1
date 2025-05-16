@@ -101,8 +101,8 @@ public class LevelController : MonoBehaviour
         }
         _blockInput = false;
         _movementsUsed = 0;
-        _levelText.text = $"Level: {_level}";
-        _movementsText.text = $"Moves: {_levels[_level].Movements}";
+        _levelText.text = $"Nivel: {_level}";
+        _movementsText.text = $"Tiradas: {_levels[_level].Movements}";
     }
 
 
@@ -123,7 +123,7 @@ public class LevelController : MonoBehaviour
         }
 
         _movementsUsed++;
-        _movementsText.text = $"Moves: {_levels[_level].Movements - _movementsUsed}";
+        _movementsText.text = $"Tiradas: {_levels[_level].Movements - _movementsUsed}";
 
         if(card.CardType == _activeCard.CardType)
         {
