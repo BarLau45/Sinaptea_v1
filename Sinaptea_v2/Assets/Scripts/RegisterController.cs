@@ -100,6 +100,11 @@ public class RegisterController : MonoBehaviour
                 // Podemos continuar aunque falle la actualización del perfil
             }
             
+            PlayerPrefs.DeleteKey("AvatarHair");
+            PlayerPrefs.DeleteKey("AvatarShirt");
+            PlayerPrefs.DeleteKey("AvatarPants");
+            PlayerPrefs.DeleteKey("AvatarShoes");
+            PlayerPrefs.Save();
             // Ir a la escena principal o de login
             MoveToLogin();
         }
@@ -110,7 +115,7 @@ public class RegisterController : MonoBehaviour
 
     void MoveToLogin()
     {
-        SceneManager.LoadScene("LoginScene");
+        SceneManager.LoadScene("CrearAvatarScene");
     }
 
     public void DeployError(string text)

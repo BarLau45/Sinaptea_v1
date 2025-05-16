@@ -57,6 +57,12 @@ public class WardrobeSaver : MonoBehaviour
             }
         }
         PlayerPrefs.Save();
+        Scene thisScene = SceneManager.GetActiveScene();
+        string thisSceneName = thisScene.name;
+        if (thisSceneName == "CrearAvatarScene")
+        {
+            SceneManager.LoadScene("LoginScene");
+        }
         SceneManager.LoadScene("SampleScene");
     }
 
