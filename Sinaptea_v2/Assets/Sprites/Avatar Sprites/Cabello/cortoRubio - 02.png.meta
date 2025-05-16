@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cortoRubio - 02_0: -7256751465602190866
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

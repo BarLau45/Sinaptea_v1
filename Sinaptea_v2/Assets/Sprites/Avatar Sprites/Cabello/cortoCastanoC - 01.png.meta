@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cortoCastanoC - 01_0: 1578972932038806113
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

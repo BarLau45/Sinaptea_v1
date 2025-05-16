@@ -57,7 +57,7 @@ public class WardrobeSaver : MonoBehaviour
             }
         }
         PlayerPrefs.Save();
-        SceneManager.LoadScene("ArmarioScene");
+        SceneManager.LoadScene("SampleScene");
     }
 
     private void LoadSingleWearing(string type, WardrobeController controller)
